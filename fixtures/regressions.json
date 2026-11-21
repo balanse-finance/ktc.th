@@ -1,0 +1,53 @@
+{
+  "schemaVersion": 1,
+  "cases": [
+    {
+      "templateId": "ktc.credit-card.v1",
+      "extracted": {
+        "pageCount": 1,
+        "text": "STATEMENT OF CREDIT CARD CARD NUMBER KTC KRUNGTHAI CARD เคทีซี เคทีซี บัตรเครดิต ใบแจ้งยอด\n01/01/2026 01/01/2026 SYNTHETIC PURCHASE SYNTHETIC SAMPLE 42.00",
+        "items": [
+          {
+            "pageNumber": 1,
+            "text": "01/01/2026",
+            "x": 51,
+            "y": 477.5,
+            "width": 20,
+            "height": 10
+          },
+          {
+            "pageNumber": 1,
+            "text": "01/01/2026",
+            "x": 136,
+            "y": 477.5,
+            "width": 20,
+            "height": 10
+          },
+          {
+            "pageNumber": 1,
+            "text": "SYNTHETIC PURCHASE SYNTHETIC SAMPLE",
+            "x": 211,
+            "y": 477.5,
+            "width": 20,
+            "height": 10
+          },
+          {
+            "pageNumber": 1,
+            "text": "42.00",
+            "x": 501,
+            "y": 477.5,
+            "width": 20,
+            "height": 10
+          }
+        ]
+      },
+      "expected": [
+        {
+          "amountMinor": 4200,
+          "transactionDateTime": "2026-01-01T00:00:00+07:00",
+          "direction": "debit"
+        }
+      ]
+    }
+  ]
+}
