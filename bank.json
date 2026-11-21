@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "version": "1.0.0",
+  "version": "1.0.1",
   "institutionId": "ktc",
   "country": "TH",
   "displayName": "KTC",
@@ -18,7 +18,7 @@
         "thai-statements-v1"
       ],
       "sha256": "77715750ec313c2db2a73303c0b13301070e47f06d63afde3a13403a6d531ab3",
-      "path": "templates/th/ktc/credit-card.v1.json",
+      "path": "templates/credit-card.v1.json",
       "changeSummary": "Initial reviewed bundled recipe."
     }
   ]
